@@ -1,0 +1,180 @@
+# Luisxavier<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartão de Apresentação - Luis Eduardo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      overflow-x: hidden;
+      background-color: #000;
+    }
+
+    nav {
+      background-color: rgba(245, 5, 5, 0.9);
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .foto {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px auto;
+      border: 4px solid white;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: square;
+      max-width: 500px;
+      margin: 20px auto;
+      text-align: left;
+      font-size: 1.1em;
+    }
+
+    .contato {
+      margin-top: 30px;
+      font-size: 1em;
+    }
+
+    .contato p {
+      margin: 5px 0;
+    }
+
+    .contato a {
+      color: #66ccff;
+      text-decoration: none;
+    }
+
+    .contato a:hover {
+      text-decoration: underline;
+    }
+
+    .informacoes {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 40px auto;
+      max-width: 800px;
+    }
+
+    .informacoes h2 {
+      text-align: center;
+      font-size: 2em;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      p, ul, .contato {
+        font-size: 1em;
+        padding: 0 10px;
+      }
+
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+      }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#informacoes">Informações</a></li> 
+    </ul>
+  </nav>
+
+  <div class="overlay" id="inicio">
+    <h1>Luis Eduardo</h1>
+    <img src="imagens/20250102_162347.jpg" alt="Foto de Luis Eduardo" class="foto">
+
+    <div id="sobre">
+      <p> Sou Luis Eduardo, um apaixonado por tecnologia, esportes e pela vida. Sou apaixonado pelo futebol, esporte que eu acompanho desde criança ,
+         torcedor fanatico da Sociedade Esportiva Palmeiras e grande admirador e fã tambem do Real Madrid. Teve outro esporte que ganhou meu coração o voleibol e que na qual eu espero
+        pode me tornar um dos melhores da cidade.
+    </p>
+
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Design gráfico e web</li>
+        <li>Animes e cultura japonesa</li>
+        <li>Trilhas e natureza</li>
+        <li>Leitura de fantasia e ficção científica</li>
+        <li>Criação de conteúdo e storytelling</li>
+      </ul>
+    </div>
+
+    <div class="informacoes" id="informacoes">
+      <h2>Informações de Contato</h2>
+      <div class="contato">
+        <p><strong>Email:</strong> luis.arujo0985@gmail.com</p>
+        <p><strong>Instagram:</strong> <a href="#">@luisxvr</a></p>
+        <p><strong>Telefone:</strong> (99) 98458-3871</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 - Por Luis Eduardo</p>
+    </footer>
+  </div>
+</body>
+</html>
